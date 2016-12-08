@@ -1,18 +1,21 @@
-#header-nav h1{
-	margin: 0;
-	: #aaa;
-}
-ul#mobile-nav li {
-	border-bottom: 1px solid #aaa;
-}
-ul#mobile-nav li:last-of-type{
-	margin-bottom: -8px;
-	border-bottom: 2px solid #aaa;
-}
-#page-header{
-	margin-top: 70px;
-	margin-bottom: 30px;
-}
-.content{
-	background-color: #aaa;
-}
+ #header-nav h1{
+  margin: 0;
+  
+  }
+  #header-nav {
+  background-color: #aaa;
+  }
+  ul#mobile-nav li {
+  border-bottom: 1px solid #aaa;
+  }
+  ul#mobile-nav li:last-of-type{
+  margin-bottom: -8px;
+  border-bottom: 2px solid #aaa;
+  }
+  #page-header{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  }
+  .content{
+  background-color: #aaa;
+  }
