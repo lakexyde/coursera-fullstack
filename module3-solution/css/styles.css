@@ -1,18 +1,26 @@
- #header-nav h1{
+.navbar {
+   color: #ccc;
+   font-weight: 700;
+   background-color: #141414;
+  }
+  .navbar h1{
   margin: 0;
   
   }
+<<<<<<< HEAD
   #header-nav, .navbar-brand {
   color: #141414;
   font-weight: 700;
   background-color: #aaa;
   }
+=======
+>>>>>>> 9199a5750f5e77268e4c1e419caa67afb5835886
   ul#mobile-nav li {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 2px solid #ccc;
   }
   ul#mobile-nav li:last-of-type{
   margin-bottom: -8px;
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid #ccc;
   }
   div#bs-example-navbar-collapse-1 {
     background-color: white;
@@ -23,4 +31,9 @@
   }
   .content{
   background-color: #aaa;
+  }
+  @media screen and (max-width: 767px){
+   #bs-example-navbar-collapse-1{
+     background-color: white;
+   }
   }
